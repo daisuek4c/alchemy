@@ -1,0 +1,881 @@
+# Logfile created on 2015-11-10 22:46:00 +0900 by logger.rb/47272
+D, [2015-11-10T22:46:00.508822 #9554] DEBUG -- : Client started with command:
+D, [2015-11-10T22:46:00.509768 #9554] DEBUG -- : /home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb
+D, [2015-11-10T22:46:00.510682 #9554] DEBUG -- : ["58825", "103"]
+D, [2015-11-10T22:46:00.512864 #9554] DEBUG -- : Client Initialized
+D, [2015-11-10T22:46:00.513399 #9554] DEBUG -- : Connection Established
+D, [2015-11-10T22:46:00.513973 #9554] DEBUG -- : Sent Client info
+D, [2015-11-10T22:46:00.515348 #9554] DEBUG -- : {"name":"alchemy","client-id":103,"dir":"/home/daisuek-4c/development/ruby/alchemy","commands":["editor.eval.ruby"],"type":"ruby"}
+D, [2015-11-10T22:46:48.872437 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:46:48.872729 #9554] DEBUG -- : [99,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"end","meta":{"start":7,"end":7}}]
+
+D, [2015-11-10T22:46:48.873247 #9554] DEBUG -- : Eval Candidate 
+end
+D, [2015-11-10T22:46:48.874090 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:46:48.874523 #9554] DEBUG -- : [99,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected keyword_end, expecting end-of-input>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":7,"end":7}}]
+D, [2015-11-10T22:47:06.706640 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:47:06.707404 #9554] DEBUG -- : [99,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"end","meta":{"start":8,"end":8}}]
+
+D, [2015-11-10T22:47:06.707847 #9554] DEBUG -- : Eval Candidate 
+end
+D, [2015-11-10T22:47:06.708558 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:47:06.708738 #9554] DEBUG -- : [99,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected keyword_end, expecting end-of-input>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":8,"end":8}}]
+D, [2015-11-10T22:47:44.015934 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:47:44.016050 #9554] DEBUG -- : [99,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"end","meta":{"start":9,"end":9}}]
+
+D, [2015-11-10T22:47:44.016143 #9554] DEBUG -- : Eval Candidate 
+end
+D, [2015-11-10T22:47:44.016350 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:47:44.016403 #9554] DEBUG -- : [99,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected keyword_end, expecting end-of-input>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":9,"end":9}}]
+D, [2015-11-10T22:49:28.309641 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:49:28.309750 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":9},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"puts test"}]
+
+D, [2015-11-10T22:49:28.309845 #9554] DEBUG -- : Eval Candidate 
+puts test
+D, [2015-11-10T22:49:28.310099 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:49:28.310153 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<ArgumentError: wrong number of arguments (0 for 2..3)>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb:3:in `test'\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb:3:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:49:31.911856 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:49:31.911971 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"test = 1 + 3"}]
+
+D, [2015-11-10T22:49:31.912109 #9554] DEBUG -- : Eval Candidate 
+test = 1 + 3
+D, [2015-11-10T22:49:31.912279 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:49:31.912389 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":4,"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:49:33.732918 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:49:33.733032 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"test = 1 + 3"}]
+
+D, [2015-11-10T22:49:33.733128 #9554] DEBUG -- : Eval Candidate 
+test = 1 + 3
+D, [2015-11-10T22:49:33.733288 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:49:33.733343 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":4,"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:49:46.963504 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:49:46.964164 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":9},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"test.to_s"}]
+
+D, [2015-11-10T22:49:46.964584 #9554] DEBUG -- : Eval Candidate 
+test.to_s
+D, [2015-11-10T22:49:46.965281 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:49:46.965545 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":"4","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:50:06.557137 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:06.557430 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array = [0, 1, 2, 3, 4]"}]
+
+D, [2015-11-10T22:50:06.557787 #9554] DEBUG -- : Eval Candidate 
+array = [0, 1, 2, 3, 4]
+D, [2015-11-10T22:50:06.558233 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:06.558444 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,1,2,3,4],"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:50:08.053670 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:08.054101 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":0,"ch":23},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array = [0, 1, 2, 3, 4]"}]
+
+D, [2015-11-10T22:50:08.054457 #9554] DEBUG -- : Eval Candidate 
+array = [0, 1, 2, 3, 4]
+D, [2015-11-10T22:50:08.055282 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:08.055509 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,1,2,3,4],"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:50:08.969625 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:08.970080 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":0,"ch":23},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array = [0, 1, 2, 3, 4]"}]
+
+D, [2015-11-10T22:50:08.970711 #9554] DEBUG -- : Eval Candidate 
+array = [0, 1, 2, 3, 4]
+D, [2015-11-10T22:50:08.975230 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:08.975430 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,1,2,3,4],"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:50:10.145295 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:10.145758 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array = [0, 1, 2, 3, 4]"}]
+
+D, [2015-11-10T22:50:10.147308 #9554] DEBUG -- : Eval Candidate 
+array = [0, 1, 2, 3, 4]
+D, [2015-11-10T22:50:10.147767 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:10.148262 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,1,2,3,4],"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:50:34.565317 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:34.565598 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":27},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| _ % 2 = 0}"}]
+
+D, [2015-11-10T22:50:34.566029 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| _ % 2 = 0}
+D, [2015-11-10T22:50:34.567424 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:34.568088 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected '=', expecting '}'\narray.select{|_| _ % 2 = 0}\n                        ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:50:36.015781 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:36.016054 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| _ % 2 = 0}"}]
+
+D, [2015-11-10T22:50:36.016304 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| _ % 2 = 0}
+D, [2015-11-10T22:50:36.017027 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:36.017190 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected '=', expecting '}'\narray.select{|_| _ % 2 = 0}\n                        ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:50:37.121057 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:37.121440 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":27},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| _ % 2 = 0}"}]
+
+D, [2015-11-10T22:50:37.122111 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| _ % 2 = 0}
+D, [2015-11-10T22:50:37.124315 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:37.124738 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected '=', expecting '}'\narray.select{|_| _ % 2 = 0}\n                        ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:50:37.470354 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:37.470696 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":27},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| _ % 2 = 0}"}]
+
+D, [2015-11-10T22:50:37.471325 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| _ % 2 = 0}
+D, [2015-11-10T22:50:37.472343 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:37.472563 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected '=', expecting '}'\narray.select{|_| _ % 2 = 0}\n                        ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:50:38.232655 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:38.233022 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":27},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| _ % 2 = 0}"}]
+
+D, [2015-11-10T22:50:38.233602 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| _ % 2 = 0}
+D, [2015-11-10T22:50:38.234660 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:38.236032 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected '=', expecting '}'\narray.select{|_| _ % 2 = 0}\n                        ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:50:40.695266 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:40.695661 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":27},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| _ % 2 = 0}"}]
+
+D, [2015-11-10T22:50:40.696658 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| _ % 2 = 0}
+D, [2015-11-10T22:50:40.697500 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:40.697678 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected '=', expecting '}'\narray.select{|_| _ % 2 = 0}\n                        ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:50:41.613323 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:41.613816 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| _ % 2 = 0}"}]
+
+D, [2015-11-10T22:50:41.614334 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| _ % 2 = 0}
+D, [2015-11-10T22:50:41.616264 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:41.616483 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected '=', expecting '}'\narray.select{|_| _ % 2 = 0}\n                        ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:50:51.987916 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:51.988295 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":2,"ch":1},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":2,"end":2},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"_"}]
+
+D, [2015-11-10T22:50:51.988588 #9554] DEBUG -- : Eval Candidate 
+_
+D, [2015-11-10T22:50:51.989262 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:51.989435 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<NameError: undefined local variable or method `_' for main:Object>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb:4:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":2,"end":2}}]
+D, [2015-11-10T22:50:53.749030 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:50:53.749330 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":2,"ch":1},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":2,"end":2},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"_"}]
+
+D, [2015-11-10T22:50:53.749820 #9554] DEBUG -- : Eval Candidate 
+_
+D, [2015-11-10T22:50:53.750516 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:50:53.750812 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<NameError: undefined local variable or method `_' for main:Object>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb:4:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":2,"end":2}}]
+D, [2015-11-10T22:51:06.937904 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:51:06.938306 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":27},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| _ % 2 = 0}"}]
+
+D, [2015-11-10T22:51:06.938741 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| _ % 2 = 0}
+D, [2015-11-10T22:51:06.940237 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:51:06.940540 #9554] DEBUG -- : [118,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected '=', expecting '}'\narray.select{|_| _ % 2 = 0}\n                        ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:51:59.218748 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:51:59.220468 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":28},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| _ % 2 == 0}"}]
+
+D, [2015-11-10T22:51:59.220845 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| _ % 2 == 0}
+D, [2015-11-10T22:51:59.221152 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:51:59.221230 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,2,4],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:52:08.629244 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:52:08.629527 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":30},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| (_ % 2) == 0}"}]
+
+D, [2015-11-10T22:52:08.629893 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| (_ % 2) == 0}
+D, [2015-11-10T22:52:08.630429 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:52:08.630591 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,2,4],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:52:08.910466 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:52:08.911296 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":30},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| (_ % 2) == 0}"}]
+
+D, [2015-11-10T22:52:08.911903 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| (_ % 2) == 0}
+D, [2015-11-10T22:52:08.913049 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:52:08.913410 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,2,4],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:52:16.103262 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:52:16.103676 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":23},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array.select{|_| true }"}]
+
+D, [2015-11-10T22:52:16.103986 #9554] DEBUG -- : Eval Candidate 
+array.select{|_| true }
+D, [2015-11-10T22:52:16.104643 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:52:16.104818 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,1,2,3,4],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:52:33.499052 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:52:33.499641 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":30},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = array.select{|_| true }"}]
+
+D, [2015-11-10T22:52:33.499919 #9554] DEBUG -- : Eval Candidate 
+hoge = array.select{|_| true }
+D, [2015-11-10T22:52:33.500667 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:52:33.500840 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,1,2,3,4],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:52:34.049820 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:52:34.050084 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":30},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = array.select{|_| true }"}]
+
+D, [2015-11-10T22:52:34.050440 #9554] DEBUG -- : Eval Candidate 
+hoge = array.select{|_| true }
+D, [2015-11-10T22:52:34.052458 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:52:34.052696 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,1,2,3,4],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:52:34.335902 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:52:34.336318 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":30},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = array.select{|_| true }"}]
+
+D, [2015-11-10T22:52:34.336658 #9554] DEBUG -- : Eval Candidate 
+hoge = array.select{|_| true }
+D, [2015-11-10T22:52:34.337308 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:52:34.337482 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,1,2,3,4],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:52:51.155545 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:52:51.155949 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":28},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = array.map {|_| true }"}]
+
+D, [2015-11-10T22:52:51.156230 #9554] DEBUG -- : Eval Candidate 
+hoge = array.map {|_| true }
+D, [2015-11-10T22:52:51.157157 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:52:51.157338 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[true,true,true,true,true],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:52:52.500453 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:52:52.501147 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":28},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = array.map {|_| true }"}]
+
+D, [2015-11-10T22:52:52.501535 #9554] DEBUG -- : Eval Candidate 
+hoge = array.map {|_| true }
+D, [2015-11-10T22:52:52.504031 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:52:52.505197 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[true,true,true,true,true],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:52:53.765813 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:52:53.766121 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":0,"ch":23},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"array = [0, 1, 2, 3, 4]"}]
+
+D, [2015-11-10T22:52:53.766600 #9554] DEBUG -- : Eval Candidate 
+array = [0, 1, 2, 3, 4]
+D, [2015-11-10T22:52:53.767455 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:52:53.767638 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[0,1,2,3,4],"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:53:00.842325 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:00.842818 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = array.map {|_| true }"}]
+
+D, [2015-11-10T22:53:00.843663 #9554] DEBUG -- : Eval Candidate 
+hoge = array.map {|_| true }
+D, [2015-11-10T22:53:00.844534 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:00.844819 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":[true,true,true,true,true],"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:53:10.187293 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:10.187670 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":0,"ch":8},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = 1"}]
+
+D, [2015-11-10T22:53:10.187971 #9554] DEBUG -- : Eval Candidate 
+hoge = 1
+D, [2015-11-10T22:53:10.188401 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:10.188656 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":1,"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:53:11.506142 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:11.506524 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":0,"ch":8},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = 1"}]
+
+D, [2015-11-10T22:53:11.507237 #9554] DEBUG -- : Eval Candidate 
+hoge = 1
+D, [2015-11-10T22:53:11.508005 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:11.508325 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":1,"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:53:11.717615 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:11.718123 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":0,"ch":8},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = 1"}]
+
+D, [2015-11-10T22:53:11.718519 #9554] DEBUG -- : Eval Candidate 
+hoge = 1
+D, [2015-11-10T22:53:11.719979 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:11.720676 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":1,"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:53:11.948750 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:11.949221 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":0,"ch":8},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = 1"}]
+
+D, [2015-11-10T22:53:11.949650 #9554] DEBUG -- : Eval Candidate 
+hoge = 1
+D, [2015-11-10T22:53:11.950131 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:11.950392 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":1,"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:53:12.151837 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:12.152107 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":0,"ch":8},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = 1"}]
+
+D, [2015-11-10T22:53:12.152523 #9554] DEBUG -- : Eval Candidate 
+hoge = 1
+D, [2015-11-10T22:53:12.153113 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:12.153491 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":1,"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:53:14.513053 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:14.513437 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":0,"ch":8},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = 1"}]
+
+D, [2015-11-10T22:53:14.513852 #9554] DEBUG -- : Eval Candidate 
+hoge = 1
+D, [2015-11-10T22:53:14.515216 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:14.515469 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":1,"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:53:15.327299 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:15.327735 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":0,"end":0},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge = 1"}]
+
+D, [2015-11-10T22:53:15.328143 #9554] DEBUG -- : Eval Candidate 
+hoge = 1
+D, [2015-11-10T22:53:15.328795 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:15.329046 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":1,"meta":{"start":0,"end":0}}]
+D, [2015-11-10T22:53:16.036729 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:16.037103 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":0},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":""}]
+
+D, [2015-11-10T22:53:16.037467 #9554] DEBUG -- : Eval Candidate 
+
+D, [2015-11-10T22:53:16.038041 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:16.038218 #9554] DEBUG -- : [118,"editor.eval.ruby.success",{"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:53:18.447684 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:18.448064 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge"}]
+
+D, [2015-11-10T22:53:18.448524 #9554] DEBUG -- : Eval Candidate 
+hoge
+D, [2015-11-10T22:53:18.448813 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:18.449046 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":1,"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:53:20.590706 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:20.591170 #9554] DEBUG -- : [118,"editor.eval.ruby",{"exts":["rb"],"pos":{"line":1,"ch":4},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":1,"end":1},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/repl.rb","name":"repl.rb","code":"hoge"}]
+
+D, [2015-11-10T22:53:20.591593 #9554] DEBUG -- : Eval Candidate 
+hoge
+D, [2015-11-10T22:53:20.591982 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:20.592136 #9554] DEBUG -- : [118,"editor.eval.ruby.result",{"result":1,"meta":{"start":1,"end":1}}]
+D, [2015-11-10T22:53:53.566501 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:53.566668 #9554] DEBUG -- : [99,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"end","meta":{"start":10,"end":10}}]
+
+D, [2015-11-10T22:53:53.566780 #9554] DEBUG -- : Eval Candidate 
+end
+D, [2015-11-10T22:53:53.566964 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:53.567038 #9554] DEBUG -- : [99,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected keyword_end, expecting end-of-input>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T22:53:55.761143 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:53:55.761338 #9554] DEBUG -- : [99,"editor.eval.ruby",{"pos":{"line":6,"ch":12},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge = 1"}]
+
+D, [2015-11-10T22:53:55.761496 #9554] DEBUG -- : Eval Candidate 
+    hoge = 1
+D, [2015-11-10T22:53:55.761754 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:53:55.761843 #9554] DEBUG -- : [99,"editor.eval.ruby.result",{"result":1,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T22:54:09.348844 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:54:09.349246 #9554] DEBUG -- : [99,"editor.eval.ruby",{"pos":{"line":6,"ch":23},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge = [0, 1, 2, 3]"}]
+
+D, [2015-11-10T22:54:09.349538 #9554] DEBUG -- : Eval Candidate 
+    hoge = [0, 1, 2, 3]
+D, [2015-11-10T22:54:09.350014 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:54:09.350286 #9554] DEBUG -- : [99,"editor.eval.ruby.result",{"result":[0,1,2,3],"meta":{"start":6,"end":6}}]
+D, [2015-11-10T22:54:12.743719 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:54:12.744613 #9554] DEBUG -- : [99,"editor.eval.ruby",{"pos":{"line":6,"ch":23},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge = [0, 1, 2, 3]"}]
+
+D, [2015-11-10T22:54:12.746560 #9554] DEBUG -- : Eval Candidate 
+    hoge = [0, 1, 2, 3]
+D, [2015-11-10T22:54:12.748325 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:54:12.748660 #9554] DEBUG -- : [99,"editor.eval.ruby.result",{"result":[0,1,2,3],"meta":{"start":6,"end":6}}]
+D, [2015-11-10T22:54:13.650655 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:54:13.651156 #9554] DEBUG -- : [99,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"end","meta":{"start":10,"end":10}}]
+
+D, [2015-11-10T22:54:13.651526 #9554] DEBUG -- : Eval Candidate 
+end
+D, [2015-11-10T22:54:13.652251 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:54:13.652416 #9554] DEBUG -- : [99,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected keyword_end, expecting end-of-input>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T22:54:20.270074 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:54:20.270408 #9554] DEBUG -- : [99,"editor.eval.ruby",{"pos":{"line":7,"ch":11},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":7,"end":7},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge[2]"}]
+
+D, [2015-11-10T22:54:20.272945 #9554] DEBUG -- : Eval Candidate 
+    hoge[2]
+D, [2015-11-10T22:54:20.275912 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:54:20.277573 #9554] DEBUG -- : [99,"editor.eval.ruby.result",{"result":2,"meta":{"start":7,"end":7}}]
+D, [2015-11-10T22:54:26.025107 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:54:26.025608 #9554] DEBUG -- : [99,"editor.eval.ruby",{"pos":{"line":6,"ch":23},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge = [0, 1, 2, 3]"}]
+
+D, [2015-11-10T22:54:26.026049 #9554] DEBUG -- : Eval Candidate 
+    hoge = [0, 1, 2, 3]
+D, [2015-11-10T22:54:26.026768 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:54:26.028526 #9554] DEBUG -- : [99,"editor.eval.ruby.result",{"result":[0,1,2,3],"meta":{"start":6,"end":6}}]
+D, [2015-11-10T22:54:26.307293 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:54:26.307824 #9554] DEBUG -- : [99,"editor.eval.ruby",{"pos":{"line":6,"ch":23},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge = [0, 1, 2, 3]"}]
+
+D, [2015-11-10T22:54:26.308261 #9554] DEBUG -- : Eval Candidate 
+    hoge = [0, 1, 2, 3]
+D, [2015-11-10T22:54:26.309060 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:54:26.309319 #9554] DEBUG -- : [99,"editor.eval.ruby.result",{"result":[0,1,2,3],"meta":{"start":6,"end":6}}]
+D, [2015-11-10T22:54:26.518079 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:54:26.518461 #9554] DEBUG -- : [99,"editor.eval.ruby",{"pos":{"line":6,"ch":23},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge = [0, 1, 2, 3]"}]
+
+D, [2015-11-10T22:54:26.518767 #9554] DEBUG -- : Eval Candidate 
+    hoge = [0, 1, 2, 3]
+D, [2015-11-10T22:54:26.519664 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:54:26.520740 #9554] DEBUG -- : [99,"editor.eval.ruby.result",{"result":[0,1,2,3],"meta":{"start":6,"end":6}}]
+D, [2015-11-10T22:56:42.448214 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:56:42.448893 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":8,"ch":26},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":8,"end":8},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge.select{|_| true }"}]
+
+D, [2015-11-10T22:56:42.449366 #9554] DEBUG -- : Eval Candidate 
+    hoge.select{|_| true }
+D, [2015-11-10T22:56:42.450598 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:56:42.450835 #9554] DEBUG -- : [216,"editor.eval.ruby.result",{"result":[0,1,2,3],"meta":{"start":8,"end":8}}]
+D, [2015-11-10T22:59:20.081677 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:59:20.082247 #9554] DEBUG -- : [216,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"end","meta":{"start":12,"end":12}}]
+
+D, [2015-11-10T22:59:20.082746 #9554] DEBUG -- : Eval Candidate 
+end
+D, [2015-11-10T22:59:20.084559 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:59:20.084821 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected keyword_end, expecting end-of-input>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":12,"end":12}}]
+D, [2015-11-10T22:59:25.514333 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T22:59:25.514658 #9554] DEBUG -- : [216,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"end","meta":{"start":13,"end":13}}]
+
+D, [2015-11-10T22:59:25.515214 #9554] DEBUG -- : Eval Candidate 
+end
+D, [2015-11-10T22:59:25.516236 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T22:59:25.516426 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected keyword_end, expecting end-of-input>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":13,"end":13}}]
+D, [2015-11-10T23:01:09.091781 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:01:09.091940 #9554] DEBUG -- : [216,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"1","meta":{"start":6,"end":6}}]
+
+D, [2015-11-10T23:01:09.092103 #9554] DEBUG -- : Eval Candidate 
+1
+D, [2015-11-10T23:01:09.092289 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:01:09.092346 #9554] DEBUG -- : [216,"editor.eval.ruby.result",{"result":1,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T23:01:17.903563 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:01:17.904066 #9554] DEBUG -- : [216,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"1","meta":{"start":6,"end":6}}]
+
+D, [2015-11-10T23:01:17.904475 #9554] DEBUG -- : Eval Candidate 
+1
+D, [2015-11-10T23:01:17.905182 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:01:17.905482 #9554] DEBUG -- : [216,"editor.eval.ruby.result",{"result":1,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T23:02:28.334388 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:02:28.334832 #9554] DEBUG -- : [216,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"0 ? true : false","meta":{"start":6,"end":6}}]
+
+D, [2015-11-10T23:02:28.336385 #9554] DEBUG -- : Eval Candidate 
+0 ? true : false
+D, [2015-11-10T23:02:28.337194 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:02:28.337483 #9554] DEBUG -- : [216,"editor.eval.ruby.result",{"result":true,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T23:02:29.373868 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:02:29.374256 #9554] DEBUG -- : [216,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"0 ? true : false","meta":{"start":6,"end":6}}]
+
+D, [2015-11-10T23:02:29.374664 #9554] DEBUG -- : Eval Candidate 
+0 ? true : false
+D, [2015-11-10T23:02:29.375903 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:02:29.376325 #9554] DEBUG -- : [216,"editor.eval.ruby.result",{"result":true,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T23:02:53.717969 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:02:53.718073 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":6,"ch":20},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    0 ? true : false"}]
+
+D, [2015-11-10T23:02:53.718169 #9554] DEBUG -- : Eval Candidate 
+    0 ? true : false
+D, [2015-11-10T23:02:53.718348 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:02:53.718402 #9554] DEBUG -- : [216,"editor.eval.ruby.result",{"result":true,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T23:03:38.723896 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:03:38.724250 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":6,"ch":20},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    0 ? true : false"}]
+
+D, [2015-11-10T23:03:38.724795 #9554] DEBUG -- : Eval Candidate 
+    0 ? true : false
+D, [2015-11-10T23:03:38.725324 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:03:38.726482 #9554] DEBUG -- : [216,"editor.eval.ruby.result",{"result":true,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T23:03:49.282031 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:03:49.282571 #9554] DEBUG -- : [216,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"end","meta":{"start":13,"end":13}}]
+
+D, [2015-11-10T23:03:49.283406 #9554] DEBUG -- : Eval Candidate 
+end
+D, [2015-11-10T23:03:49.285993 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:03:49.286374 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected keyword_end, expecting end-of-input>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":13,"end":13}}]
+D, [2015-11-10T23:04:12.878573 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:12.879389 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":6},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hoge"}]
+
+D, [2015-11-10T23:04:12.879871 #9554] DEBUG -- : Eval Candidate 
+  hoge
+D, [2015-11-10T23:04:12.880467 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:12.880824 #9554] DEBUG -- : [216,"editor.eval.ruby.result",{"result":[0,1,2,3],"meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:14.870495 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:14.870904 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":8},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hoge()"}]
+
+D, [2015-11-10T23:04:14.871824 #9554] DEBUG -- : Eval Candidate 
+  hoge()
+D, [2015-11-10T23:04:14.873516 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:14.874043 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<NoMethodError: undefined method `hoge' for main:Object>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:12:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:15.927578 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:15.927866 #9554] DEBUG -- : [216,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"end","meta":{"start":13,"end":13}}]
+
+D, [2015-11-10T23:04:15.928351 #9554] DEBUG -- : Eval Candidate 
+end
+D, [2015-11-10T23:04:15.929290 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:15.929582 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):3: syntax error, unexpected keyword_end, expecting end-of-input>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":13,"end":13}}]
+D, [2015-11-10T23:04:18.065578 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:18.066002 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":7},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hoge("}]
+
+D, [2015-11-10T23:04:18.068118 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+D, [2015-11-10T23:04:18.068664 #9554] DEBUG -- : Queued Code: 
+  hoge(
+D, [2015-11-10T23:04:18.068911 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:18.069184 #9554] DEBUG -- : [216,"editor.eval.ruby.incomplete",{"meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:18.286431 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:18.286773 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":7},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hoge("}]
+
+D, [2015-11-10T23:04:18.287701 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+D, [2015-11-10T23:04:18.288558 #9554] DEBUG -- : Queued Code: 
+  hoge(
+  hoge(
+D, [2015-11-10T23:04:18.288954 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:18.289370 #9554] DEBUG -- : [216,"editor.eval.ruby.incomplete",{"meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:18.494554 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:18.495388 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":7},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hoge("}]
+
+D, [2015-11-10T23:04:18.495863 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+D, [2015-11-10T23:04:18.496583 #9554] DEBUG -- : Queued Code: 
+  hoge(
+  hoge(
+  hoge(
+D, [2015-11-10T23:04:18.496911 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:18.499670 #9554] DEBUG -- : [216,"editor.eval.ruby.incomplete",{"meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:19.946134 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:19.946583 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:19.947908 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+D, [2015-11-10T23:04:19.948961 #9554] DEBUG -- : Queued Code: 
+  hoge(
+  hoge(
+  hoge(
+  hog
+D, [2015-11-10T23:04:19.949193 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:19.949512 #9554] DEBUG -- : [216,"editor.eval.ruby.incomplete",{"meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:20.120884 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:20.121262 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:20.121856 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:20.122888 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:20.123210 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:20.289932 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:20.290237 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:20.291511 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:20.292472 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:20.294428 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:20.432191 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:20.432775 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:20.433665 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:20.434825 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:20.435492 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:20.590456 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:20.593059 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:20.593593 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:20.596550 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:20.597017 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.093382 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.093624 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.094152 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.095401 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.097498 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.179159 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.179496 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.179899 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.180542 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.180839 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.240062 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.240566 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.241011 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.242070 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.242506 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.314223 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.314494 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.314785 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.315663 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.315997 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.364986 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.365362 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.365908 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.367266 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.367693 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.417796 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.418184 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.419218 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.420181 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.420515 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.479826 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.480181 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.480583 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.481215 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.481381 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.537657 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.537927 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.538344 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.540673 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.541194 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.597564 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.598027 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.598502 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.600750 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.600974 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.669025 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.669438 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.670014 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.671421 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.671689 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.724071 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.724530 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.725110 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.726115 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.726303 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.770654 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.771316 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.771775 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.772494 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.772795 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.776869 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.777131 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.777425 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.778132 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.778370 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.836588 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.836843 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.837938 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.838560 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.838849 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.930480 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.930757 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.931328 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.932044 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.932222 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.937497 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.937944 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.938449 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.939853 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.941020 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.988858 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.989166 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:21.989644 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:21.990623 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:21.991522 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:21.999342 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:21.999621 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:22.000877 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:22.001616 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:22.001792 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:22.039750 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:22.040146 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:22.040697 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:22.041799 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:22.042075 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:22.130676 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:22.131648 #9554] DEBUG -- : [216,"editor.eval.ruby",{"pos":{"line":10,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":10,"end":10},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  hog"}]
+
+D, [2015-11-10T23:04:22.132104 #9554] DEBUG -- : Eval Candidate 
+  hoge(
+  hoge(
+  hoge(
+  hog
+  hog
+D, [2015-11-10T23:04:22.133111 #9554] DEBUG -- : Sending data:
+D, [2015-11-10T23:04:22.133386 #9554] DEBUG -- : [216,"editor.eval.ruby.exception",{"ex":"#<SyntaxError: (eval):7: syntax error, unexpected tIDENTIFIER, expecting ')'\n  hog\n     ^>\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `eval'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:71:in `block in complete_expression?'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `catch'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/method_source-0.8.2/lib/method_source/code_helpers.rb:70:in `complete_expression?'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:89:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":10,"end":10}}]
+D, [2015-11-10T23:04:26.593583 #9554] DEBUG -- : Received Data:
+D, [2015-11-10T23:04:26.594199 #9554] DEBUG -- : [23,"client.close",null]
+
+D, [2015-11-10T23:04:26.594569 #9554] DEBUG -- : Disconnecting
+D, [2015-11-10T23:10:13.294086 #10157] DEBUG -- : Client started with command:
+D, [2015-11-10T23:10:13.294370 #10157] DEBUG -- : /home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb
+D, [2015-11-10T23:10:13.294483 #10157] DEBUG -- : ["51953", "89"]
+D, [2015-11-10T23:10:13.296438 #10157] DEBUG -- : Client Initialized
+D, [2015-11-10T23:10:13.297778 #10157] DEBUG -- : Connection Established
+D, [2015-11-10T23:10:13.298258 #10157] DEBUG -- : Sent Client info
+D, [2015-11-10T23:10:13.298429 #10157] DEBUG -- : {"name":"alchemy","client-id":89,"dir":"/home/daisuek-4c/development/ruby/alchemy","commands":["editor.eval.ruby"],"type":"ruby"}
+D, [2015-11-10T23:10:13.382123 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:10:13.382490 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":6,"ch":20},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    0 ? true : false"}]
+
+D, [2015-11-10T23:10:13.383654 #10157] DEBUG -- : Eval Candidate 
+    0 ? true : false
+D, [2015-11-10T23:10:13.384262 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:10:13.384437 #10157] DEBUG -- : [84,"editor.eval.ruby.result",{"result":true,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T23:10:16.315624 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:10:16.315992 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":6,"ch":20},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    0 ? true : false"}]
+
+D, [2015-11-10T23:10:16.316475 #10157] DEBUG -- : Eval Candidate 
+    0 ? true : false
+D, [2015-11-10T23:10:16.317016 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:10:16.317191 #10157] DEBUG -- : [84,"editor.eval.ruby.result",{"result":true,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T23:10:24.362802 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:10:24.363441 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":7,"ch":8},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":7,"end":7},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    test"}]
+
+D, [2015-11-10T23:10:24.363883 #10157] DEBUG -- : Eval Candidate 
+    test
+D, [2015-11-10T23:10:24.365104 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:10:24.365351 #10157] DEBUG -- : [84,"editor.eval.ruby.exception",{"ex":"#<ArgumentError: wrong number of arguments (0 for 2..3)>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:9:in `test'\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:9:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":7,"end":7}}]
+D, [2015-11-10T23:10:39.701750 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:10:39.702411 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":6,"ch":20},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":6,"end":6},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    0 ? true : false"}]
+
+D, [2015-11-10T23:10:39.703512 #10157] DEBUG -- : Eval Candidate 
+    0 ? true : false
+D, [2015-11-10T23:10:39.704308 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:10:39.704541 #10157] DEBUG -- : [84,"editor.eval.ruby.result",{"result":true,"meta":{"start":6,"end":6}}]
+D, [2015-11-10T23:10:48.286111 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:10:48.286522 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":9,"ch":6},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":9,"end":9},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  test"}]
+
+D, [2015-11-10T23:10:48.287272 #10157] DEBUG -- : Eval Candidate 
+  test
+D, [2015-11-10T23:10:48.288252 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:10:48.288509 #10157] DEBUG -- : [84,"editor.eval.ruby.exception",{"ex":"#<ArgumentError: wrong number of arguments (0 for 2..3)>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:11:in `test'\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:11:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":9,"end":9}}]
+D, [2015-11-10T23:11:11.586430 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:11:11.586713 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":9,"ch":6},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":9,"end":9},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  test"}]
+
+D, [2015-11-10T23:11:11.587331 #10157] DEBUG -- : Eval Candidate 
+  test
+D, [2015-11-10T23:11:11.587909 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:11:11.588182 #10157] DEBUG -- : [84,"editor.eval.ruby.exception",{"ex":"#<ArgumentError: wrong number of arguments (0 for 2..3)>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:11:in `test'\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:11:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":9,"end":9}}]
+D, [2015-11-10T23:11:18.973245 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:11:18.973615 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":9,"ch":11},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":9,"end":9},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"  self.test"}]
+
+D, [2015-11-10T23:11:18.974001 #10157] DEBUG -- : Eval Candidate 
+  self.test
+D, [2015-11-10T23:11:18.974604 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:11:18.974862 #10157] DEBUG -- : [84,"editor.eval.ruby.exception",{"ex":"#<NoMethodError: private method `test' called for main:Object>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:11:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":9,"end":9}}]
+D, [2015-11-10T23:11:36.239846 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:11:36.240396 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":7,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":7,"end":7},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    _"}]
+
+D, [2015-11-10T23:11:36.240774 #10157] DEBUG -- : Eval Candidate 
+    _
+D, [2015-11-10T23:11:36.241609 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:11:36.241813 #10157] DEBUG -- : [84,"editor.eval.ruby.exception",{"ex":"#<NameError: undefined local variable or method `_' for main:Object>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:9:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":7,"end":7}}]
+D, [2015-11-10T23:11:37.747411 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:11:37.747751 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":7,"ch":5},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":7,"end":7},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    _"}]
+
+D, [2015-11-10T23:11:37.748306 #10157] DEBUG -- : Eval Candidate 
+    _
+D, [2015-11-10T23:11:37.749862 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:11:37.750122 #10157] DEBUG -- : [84,"editor.eval.ruby.exception",{"ex":"#<NameError: undefined local variable or method `_' for main:Object>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:9:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":7,"end":7}}]
+D, [2015-11-10T23:11:50.384981 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:11:50.385345 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":8,"ch":8},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":8,"end":8},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge"}]
+
+D, [2015-11-10T23:11:50.385914 #10157] DEBUG -- : Eval Candidate 
+    hoge
+D, [2015-11-10T23:11:50.386546 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:11:50.386776 #10157] DEBUG -- : [84,"editor.eval.ruby.exception",{"ex":"#<NameError: undefined local variable or method `hoge' for main:Object>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:10:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":8,"end":8}}]
+D, [2015-11-10T23:11:57.140147 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:11:57.140541 #10157] DEBUG -- : [84,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"hoge","meta":{"start":8,"end":8}}]
+
+D, [2015-11-10T23:11:57.141140 #10157] DEBUG -- : Eval Candidate 
+hoge
+D, [2015-11-10T23:11:57.142754 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:11:57.143293 #10157] DEBUG -- : [84,"editor.eval.ruby.exception",{"ex":"#<NameError: undefined local variable or method `hoge' for main:Object>\n/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb:10:in `<main>'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:98:in `eval_ruby'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:67:in `receive_data'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'\n/home/daisuek-4c/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'\n/home/daisuek-4c/.config/LightTable/plugins/Ruby_Instarepl/rb-src/lt_client.rb:174:in `<main>'","meta":{"start":8,"end":8}}]
+D, [2015-11-10T23:12:00.208307 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:12:00.208718 #10157] DEBUG -- : [84,"editor.eval.ruby",{"line-ending":"\n","name":"application_controller.rb","type-name":"Ruby","path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","mime":"text/x-ruby","tags":["editor.ruby"],"code":"hoge = 8","meta":{"start":7,"end":7}}]
+
+D, [2015-11-10T23:12:00.209322 #10157] DEBUG -- : Eval Candidate 
+hoge = 8
+D, [2015-11-10T23:12:00.213034 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:12:00.213315 #10157] DEBUG -- : [84,"editor.eval.ruby.result",{"result":8,"meta":{"start":7,"end":7}}]
+D, [2015-11-10T23:12:19.719271 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:12:19.719729 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":8,"ch":16},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":8,"end":8},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge.inspect"}]
+
+D, [2015-11-10T23:12:19.720027 #10157] DEBUG -- : Eval Candidate 
+    hoge.inspect
+D, [2015-11-10T23:12:19.720591 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:12:19.720661 #10157] DEBUG -- : [84,"editor.eval.ruby.result",{"result":"8","meta":{"start":8,"end":8}}]
+D, [2015-11-10T23:12:30.525684 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:12:30.526486 #10157] DEBUG -- : [84,"editor.eval.ruby",{"pos":{"line":8,"ch":14},"mime":"text/x-ruby","tags":["editor.ruby"],"type-name":"Ruby","line-ending":"\n","meta":{"start":8,"end":8},"path":"/home/daisuek-4c/development/ruby/alchemy/app/controllers/application_controller.rb","name":"application_controller.rb","code":"    hoge.class"}]
+
+D, [2015-11-10T23:12:30.527300 #10157] DEBUG -- : Eval Candidate 
+    hoge.class
+D, [2015-11-10T23:12:30.528280 #10157] DEBUG -- : Sending data:
+D, [2015-11-10T23:12:30.528486 #10157] DEBUG -- : [84,"editor.eval.ruby.result",{"result":"Fixnum","meta":{"start":8,"end":8}}]
+D, [2015-11-10T23:45:10.871436 #10157] DEBUG -- : Received Data:
+D, [2015-11-10T23:45:10.872232 #10157] DEBUG -- : [23,"client.close",null]
+
+D, [2015-11-10T23:45:10.872391 #10157] DEBUG -- : Disconnecting
